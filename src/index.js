@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  ChakraProvider,
+  Heading
+} from "@chakra-ui/react";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ChakraProvider>
+      <Heading padding={20} size="3xl">$VNCHR Envelope redemptions will go live on Sunday 23rd May</Heading>
+      <Heading padding={20}>Please try again then :)</Heading>
+    </ChakraProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
