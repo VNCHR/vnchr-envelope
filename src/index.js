@@ -11,8 +11,7 @@ import {
 ReactDOM.render(
   <React.StrictMode>
     <ChakraProvider>
-      <Heading padding={20} size="3xl">$VNCHR Envelope redemptions will go live on Sunday 23rd May</Heading>
-      <Heading padding={20}>Please try again then :)</Heading>
+      <App/>
     </ChakraProvider>
   </React.StrictMode>,
   document.getElementById('root')
